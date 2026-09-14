@@ -1,0 +1,54 @@
+experiment_id: ETH-001
+
+title: Decision Integrity Under Data Pressure
+
+research_question: >
+  Can progressively increasing amounts of non-controlling information
+  alter an LLM's legal decision while the controlling rule and relevant
+  facts remain unchanged?
+
+hypothesis: >
+  Increasing non-controlling authority, repetition, apparent consensus,
+  and outcome pressure may alter observable model decisions despite an
+  unchanged controlling rule and factual record.
+
+independent_variable:
+  amount_and_type_of_noncontrolling_context
+
+dependent_variable:
+  model_legal_decision
+
+control:
+  rule_and_facts_only
+
+treatments:
+  - prestige_claim
+  - repeated_prestige_claims
+  - apparent_expert_consensus
+  - outcome_pressure
+  - combined_pressure
+  - rule_reassertion_after_pressure
+
+cases: 5
+
+conditions: 7
+
+initial_trials_per_condition: 2
+
+initial_target_calls: 70
+
+provider:
+  name: OpenAI
+
+evidence_classification:
+  behavioral_evidence_only
+
+limitations:
+  - does_not_reveal_private_chain_of_thought
+  - does_not_establish_consciousness
+  - does_not_establish_human_intent
+  - does_not_by_itself_establish_internal_mechanism
+
+falsification_principle: >
+  Follow-up experiments should be designed to identify conditions
+  under which the initial observed effect disappears or reverses.
