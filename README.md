@@ -1,6 +1,6 @@
 <h1 align="center" style="border-bottom: none">
    <a href="https://github.com/don-the-data-guy/EthosProbe">
-    <img alt="Ethoculus logo" src="EthoculusImage.svg" width="200" />
+    <img alt="Ethoculus logo" src="https://raw.githubusercontent.com/on-the-data-guy/EthosProbe/main/EthoculusImage.svg" width="200" />
 </a>
 </h1>
 <h2 align="center" style="border-bottom: none">The Open Source AI Engineering Platform for Agents, LLMs & Models</h2>
